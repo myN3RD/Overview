@@ -1,6 +1,7 @@
 Object Oriented Programming Leanguages   |      Functional Leanguages     |     Systems Leanguages      |     Modern Leanguages     |     Dynamic Leanguages
                                                                                                                                           Scripting Leanguage
-             Java                                                                     Rust                                                   Javascript?
+             Java                                                                     Rust                                                   
+                                                                                                                                              Javascript
 
 
 
@@ -14,6 +15,6 @@ Firebase (maybe, should be nice)  is an hybrid of SQL and NoSQL
 
 
 
-API
+API (Application programming Interface) 
 
 Node.js
