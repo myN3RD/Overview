@@ -26,3 +26,22 @@ Node.js
 IaaS      |     PaaS      |     SaaS
 
 
+
+
+          HOSTING Guideline
+          
+1. Use Environment Variables:
+- Avoid hard-codes values in your code, like sensitive data, like api keys, personal data etc.
+
+2. set secure response headers  -> https://helmetjs.github.io
+- npm install helmet --save
+
+var helmet =require('helmet');
+ 
+ app.use(helmet());
+ 
+3. Configure logging
+4. Use SSL / TSL , important- but the most hoster make that for us 
+
+
+
