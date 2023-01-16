@@ -30,6 +30,14 @@ IaaS      |     PaaS      |     SaaS
 
           HOSTING Guideline
           
+          
+     FIRST we host a node.js App !
+     SECOND we need a provider who supports node.js hosting !
+     
+     PROVIDERS  alfahosting
+                digitalocean
+     
+          
 1. Use Environment Variables:
 - Avoid hard-codes values in your code, like sensitive data, like api keys, personal data etc.
 
