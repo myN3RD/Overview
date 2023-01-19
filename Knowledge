@@ -52,4 +52,11 @@ var helmet =require('helmet');
 4. Use SSL / TSL , important- but the most hoster make that for us 
 
 
+DIGITALOCEAN
+FAB
+
+oben statt ubuntu auf debian
+premium AMD -> mach auf regular (also der die erste auswahl)
+
+
 
