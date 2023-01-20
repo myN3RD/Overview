@@ -71,9 +71,6 @@ eingeben
 SCP:
 
 command in terminal:
-scp -r folder name User name@HostIp
-scp -r johanwebseite16909Sachverständigerjohan@46.101.155.88:debian-s-1vcpu-512mb-10gb-fra1-01
-
-
+scp -r folder name User name@HostIp:dropletname
 
 
