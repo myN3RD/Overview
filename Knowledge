@@ -78,3 +78,13 @@ scp -r file.tar root@46.101.155.88:/root/file.tar   _/_/_/
 digitalocean root: terminal commend: tar -xvf johanWebseite.tar     -> zum tar entpacken
 
 
+
+npm PM2     keeps the app running
+
+npm cache clean -f
+
+sudo npm install pm2 -g
+
+
+
+
