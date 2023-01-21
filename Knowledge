@@ -73,4 +73,6 @@ SCP:
 command in terminal:
 scp -r folder name User name@HostIp:dropletname
 
+scp -r file.tar root@46.101.155.88:/root/file.tar   _/_/_/
+
 
