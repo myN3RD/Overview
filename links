@@ -4,7 +4,7 @@ PLAYGROUNDS codepen.io
 
 DOMAIN    https://www.godaddy.com/de
 
-HOSTING
+HOSTING   digitalocean
 
 TESTS     https://leetcode.com
 
@@ -13,6 +13,10 @@ TESTS     https://github.com/karan/Projects
 HELP      https://www.w3schools.com
 
 BACKEND ROADMAP     https://roadmap.sh/backend
+
+          https://unicode-table.com/de/html-entities/
+          
+          
 
 ! Objektorientierung https://www.roberta-home.de/fileadmin/user_upload/WebBooks/JavaBand/RobertaBuchch6.html
                      https://de.wikipedia.org/wiki/Objektorientierung
