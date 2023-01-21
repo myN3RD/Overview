@@ -59,6 +59,13 @@ oben statt ubuntu auf debian
 premium AMD -> mach auf regular (also der die erste auswahl)
 
 
+
+https://www.digitalocean.com/community/tutorials/initial-server-setup-with-debian-10
+https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-debian-10
+
+
+
+
 Terminal command
 
 ssh root@meine ip
@@ -84,6 +91,8 @@ npm PM2     keeps the app running
 npm cache clean -f
 
 sudo npm install pm2 -g
+
+pm2 start app.js
 
 
 
