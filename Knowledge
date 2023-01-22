@@ -116,6 +116,9 @@ pm2 start app.js
 PORTS opening:
 https://www.digitalocean.com/community/tutorials/opening-a-port-on-linux
 
+Netcat install:
+sudo apt-get install netcat
+
 
 
 
