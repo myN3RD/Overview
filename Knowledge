@@ -86,7 +86,7 @@ digitalocean root: terminal commend: tar -xvf file.tar     -> zum tar entpacken
 
 
 
-npm PM2     keeps the app running
+npm PM2     keeps the app running     https://pm2.keymetrics.io/docs/usage/quick-start/
 
 npm cache clean -f
 
