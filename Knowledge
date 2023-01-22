@@ -68,6 +68,8 @@ https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-debia
 
 Terminal command
 
+SSH:
+
 ssh root@meine ip
 
 dann das root host pw
@@ -82,7 +84,21 @@ scp -r folder name User name@HostIp:dropletname
 
 scp -r file.tar root@ip:/root/file.tar   _/_/_/
 
+
+
+file directly:
+scp app.js root@ip:/root/folder/app.js
+
+
 digitalocean root: terminal commend: tar -xvf file.tar     -> zum tar entpacken
+
+
+TAR create and extract
+
+$ tar -cvf wanted file name   existing file
+
+
+
 
 
 
