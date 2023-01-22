@@ -106,6 +106,8 @@ npm PM2     keeps the app running     https://pm2.keymetrics.io/docs/usage/quick
 
 npm cache clean -f
 
+
+npm install pm2@latest -g
 sudo npm install pm2 -g
 
 pm2 start app.js
