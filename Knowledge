@@ -120,5 +120,26 @@ Netcat install:
 sudo apt-get install netcat
 
 
+SSL Cerfificate
+
+
+add thsi to the app.js file on the top:
+
+const fs = require('fs');
+var privateKey = fs.readFileSync( 'privatekey.pem' );
+var certificate = fs.readFileSync( 'certificate.pem' );
+
+https.createServer({
+    key: privateKey,
+    cert: certificate
+}, app).listen(port);
+
+
+download the ssl key file from IONOS for example
+
+
+add the key file to the node app folder
+
+
 
 
