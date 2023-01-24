@@ -84,6 +84,9 @@ scp -r folder name User name@HostIp:dropletname
 
 scp -r file.tar root@ip:/root/file.tar   _/_/_/
 
+scp -r app.js root@ip:/root/subfolder/app.js
+
+
 
 
 file directly:
