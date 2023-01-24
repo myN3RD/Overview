@@ -77,7 +77,7 @@ eingeben
 
 
 
-SCP:
+SCP:    (file or folder TRANSFER to root server) 
 
 command in terminal:
 scp -r folder name User name@HostIp:dropletname
