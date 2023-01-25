@@ -105,19 +105,27 @@ $ tar -cvf wanted file name   existing file
 
 
 
-npm PM2     keeps the app running     https://pm2.keymetrics.io/docs/usage/quick-start/
-
 npm cache clean -f
 
+
+PM2
+npm PM2     keeps the app running     https://pm2.keymetrics.io/docs/usage/quick-start/
 
 npm install pm2@latest -g
 sudo npm install pm2 -g
 
 pm2 start app.js
+pm2 stop app.js
+
+pm2 delete <id>       clears the cache of pm2 ??
+
+pm2 monit             monitoring
+
 
 
 PORTS opening:
 https://www.digitalocean.com/community/tutorials/opening-a-port-on-linux
+
 
 Netcat install:
 sudo apt-get install netcat
@@ -125,23 +133,28 @@ sudo apt-get install netcat
 
 SSL Cerfificate
 
+add this to the app.js file:
 
-add thsi to the app.js file on the top:
 
 const fs = require('fs');
 var privateKey = fs.readFileSync( 'privatekey.pem' );
 var certificate = fs.readFileSync( 'certificate.pem' );
 
+
 https.createServer({
     key: privateKey,
     cert: certificate
-}, app).listen(port);
+}, app).listen(443);          at the end of the app
 
 
-download the ssl key file from IONOS for example
+
+download the ssl key file from domain provider
+downloas the ssl certificate
+
+bouth naming into a  .pem file!
 
 
-add the key file to the node app folder
+add the key file to the node app folder (root works)
 
 
 
