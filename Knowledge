@@ -131,7 +131,7 @@ Netcat install:
 sudo apt-get install netcat
 
 
-SSL Cerfificate
+SSL Cerfificate                 https://stackoverflow.com/questions/11804202/how-do-i-setup-a-ssl-certificate-for-an-express-js-server
 
 add this to the app.js file:
 
