@@ -8,3 +8,8 @@ mark inline:              shift + option + left/right arrows
 mark up or down           shift + up/down arrow
 
 .
+
+
+EXTENSIONS
+
+change words all at ones: ctrl + d   ctrl + shift + l        :  Multiple cursor case preserve
