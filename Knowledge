@@ -53,6 +53,7 @@ var helmet =require('helmet');
 
 
 DIGITALOCEAN
+
 FAB
 
 oben statt ubuntu auf debian
@@ -62,6 +63,9 @@ premium AMD -> mach auf regular (also der die erste auswahl)
 
 https://www.digitalocean.com/community/tutorials/initial-server-setup-with-debian-10
 https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-debian-10
+
+
+DNS RECORDS       https://docs.digitalocean.com/tutorials/dns-registrars/
 
 
 
