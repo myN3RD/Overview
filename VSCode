@@ -15,3 +15,8 @@ EXTENSIONS
 change words all at ones: ctrl + d   ctrl + shift + l        :  Multiple cursor case preserve
 
 Thunder Client  -> does the same like postman, just much faster and in VSCode
+
+
+    Making a POST request -> http://localhost:1337/api/auth/local/register
+    
+    Making a GET request for login -> http://localhost:1337/api/auth/local
