@@ -13,3 +13,5 @@ mark up or down           shift + up/down arrow
 EXTENSIONS
 
 change words all at ones: ctrl + d   ctrl + shift + l        :  Multiple cursor case preserve
+
+Thunder Client  -> does the same like postman, just much faster and in VSCode
