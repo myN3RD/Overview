@@ -127,6 +127,13 @@ pm2 monit             monitoring
 
 
 
+HOW TO SEE THE CONTENT OF FILES IN THE TERMINAL
+
+go to the root where the file is ->
+command:    nano main.css   nano filename
+
+
+
 PORTS opening:
 https://www.digitalocean.com/community/tutorials/opening-a-port-on-linux
 
