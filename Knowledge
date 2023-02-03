@@ -36,6 +36,7 @@ IaaS      |     PaaS      |     SaaS
      
      PROVIDERS  alfahosting
                 digitalocean
+                godaddy
      
           
 1. Use Environment Variables:
@@ -52,9 +53,11 @@ var helmet =require('helmet');
 4. Use SSL / TSL , important- but the most hoster make that for us 
 
 
-DIGITALOCEAN
 
-FAB
+
+  DIGITALOCEAN
+
+  FAB
 
 oben statt ubuntu auf debian
 premium AMD -> mach auf regular (also der die erste auswahl)
@@ -65,23 +68,21 @@ https://www.digitalocean.com/community/tutorials/initial-server-setup-with-debia
 https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-debian-10
 
 
-DNS RECORDS       https://docs.digitalocean.com/tutorials/dns-registrars/
+
+  DNS RECORDS und NAMESERVER einrichten   ->   https://docs.digitalocean.com/tutorials/dns-registrars/
 
 
 
 
-Terminal command
-
-SSH:
+  SSH:
 
 ssh root@meine ip
 
-dann das root host pw
-eingeben
+dann das -> root host pw <- eingeben
 
 
 
-SCP:    (file or folder TRANSFER to root server) 
+  SCP:    (file or folder TRANSFER to root server) 
 
 command in terminal:
 scp -r folder name User name@HostIp:dropletname
@@ -108,7 +109,6 @@ $ tar -cvf wanted file name   existing file
 
 
 
-
 npm cache clean -f
 
 
@@ -127,14 +127,14 @@ pm2 monit             monitoring
 
 
 
-HOW TO SEE THE CONTENT OF FILES IN THE TERMINAL
+  HOW TO SEE THE CONTENT OF FILES IN THE TERMINAL
 
 go to the root where the file is ->
 command:    nano main.css   nano filename
 
 
 
-PORTS opening:
+  PORTS opening:
 https://www.digitalocean.com/community/tutorials/opening-a-port-on-linux
 
 
@@ -169,7 +169,9 @@ add the key file to the node app folder (root works)
 
 
 
-IF THE BROWSER IS CHANGING AUTOMATICLY FROM HTTP to HTTPS -> https://superuser.com/questions/565409/how-to-stop-an-automatic-redirect-from-http-to-https-in-chrome
+  IF THE BROWSER IS CHANGING AUTOMATICLY FROM HTTP to HTTPS 
+  
+  -> https://superuser.com/questions/565409/how-to-stop-an-automatic-redirect-from-http-to-https-in-chrome
 
 
 
