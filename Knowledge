@@ -55,9 +55,9 @@ var helmet =require('helmet');
 
 
 
-  DIGITALOCEAN
+      DIGITALOCEAN
 
-  FAB
+      FAB
 
 oben statt ubuntu auf debian
 premium AMD -> mach auf regular (also der die erste auswahl)
@@ -74,7 +74,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-debia
 
 
 
-  SSH:
+     SSH:
 
 ssh root@meine ip
 
@@ -82,7 +82,7 @@ dann das -> root host pw <- eingeben
 
 
 
-  SCP:    (file or folder TRANSFER to root server) 
+     SCP:    (file or folder TRANSFER to root server) 
 
 command in terminal:
 scp -r folder name User name@HostIp:dropletname
@@ -112,7 +112,7 @@ $ tar -cvf wanted file name   existing file
 npm cache clean -f
 
 
-PM2
+      PM2
 npm PM2     keeps the app running     https://pm2.keymetrics.io/docs/usage/quick-start/
 
 npm install pm2@latest -g
@@ -122,19 +122,23 @@ pm2 start app.js
 pm2 stop app.js
 
 pm2 delete <id>       clears the cache of pm2 ??
+pm2 dleete all
 
 pm2 monit             monitoring
 
 
+pm2 start app.js "MY APP" ...    keeps pm2 running while changing the app       // VIDEO CHECK AGAIN for the command
 
-  HOW TO SEE THE CONTENT OF FILES IN THE TERMINAL
+
+
+      HOW TO SEE THE CONTENT OF FILES IN THE TERMINAL
 
 go to the root where the file is ->
 command:    nano main.css   nano filename
 
 
 
-  PORTS opening:
+      PORTS opening:
 https://www.digitalocean.com/community/tutorials/opening-a-port-on-linux
 
 
@@ -142,7 +146,7 @@ Netcat install:
 sudo apt-get install netcat
 
 
-SSL Cerfificate                 https://stackoverflow.com/questions/11804202/how-do-i-setup-a-ssl-certificate-for-an-express-js-server
+      SSL Cerfificate                 https://stackoverflow.com/questions/11804202/how-do-i-setup-a-ssl-certificate-for-an-express-js-server
 
 add this to the app.js file:
 
@@ -169,7 +173,7 @@ add the key file to the node app folder (root works)
 
 
 
-  IF THE BROWSER IS CHANGING AUTOMATICLY FROM HTTP to HTTPS 
+      IF THE BROWSER IS CHANGING AUTOMATICLY FROM HTTP to HTTPS 
   
   -> https://superuser.com/questions/565409/how-to-stop-an-automatic-redirect-from-http-to-https-in-chrome
   
