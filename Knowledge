@@ -180,6 +180,10 @@ ______________________________________________________________________
       
       
       https://stackoverflow.com/questions/11804202/how-do-i-setup-a-ssl-certificate-for-an-express-js-server
+      
+      
+      https://stackoverflow.com/questions/11744975/enabling-https-on-express-js     _/_/_/
+
 
 add this to the app.js file:
 
@@ -199,10 +203,9 @@ https.createServer({
 download the ssl key file from domain provider
 downloas the ssl certificate
 
-bouth naming into a  .pem file!
 
 
-add the key file to the node app folder (root works)
+add the files to the node app folder (root folder works)
 
 
 
