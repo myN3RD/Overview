@@ -28,7 +28,12 @@ IaaS      |     PaaS      |     SaaS
 
 
 
+
+
           HOSTING Guideline
+
+______________________________________________________________________  
+
           
           
      FIRST we host a node.js App !
@@ -57,6 +62,8 @@ var helmet =require('helmet');
 
       DIGITALOCEAN
 
+______________________________________________________________________  
+
       FAB
 
 oben statt ubuntu auf debian
@@ -75,6 +82,8 @@ https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-debia
 
 
      SSH:
+   
+______________________________________________________________________     
 
 ssh root@meine ip
 
@@ -82,7 +91,11 @@ dann das -> root host pw <- eingeben
 
 
 
+
      SCP:    (file or folder TRANSFER to root server) 
+ 
+______________________________________________________________________  
+
 
 command in terminal:
 scp -r folder name User name@HostIp:dropletname
@@ -107,12 +120,15 @@ $ tar -cvf wanted file name   existing file
 
 
 
-
-
 npm cache clean -f
 
 
+
+
       PM2
+      
+______________________________________________________________________  
+
 npm PM2     keeps the app running     https://pm2.keymetrics.io/docs/usage/quick-start/
 
 npm install pm2@latest -g
@@ -131,14 +147,22 @@ pm2 start app.js "MY APP" ...    keeps pm2 running while changing the app       
 
 
 
+
+
       HOW TO SEE THE CONTENT OF FILES IN THE TERMINAL
+ 
+______________________________________________________________________   
 
 go to the root where the file is ->
 command:    nano main.css   nano filename
 
 
 
+
       PORTS opening:
+      
+______________________________________________________________________  
+
 https://www.digitalocean.com/community/tutorials/opening-a-port-on-linux
 
 
@@ -146,7 +170,16 @@ Netcat install:
 sudo apt-get install netcat
 
 
-      SSL Cerfificate                 https://stackoverflow.com/questions/11804202/how-do-i-setup-a-ssl-certificate-for-an-express-js-server
+
+
+      SSL Cerfificate                
+      
+______________________________________________________________________  
+
+      goDaddy     https://de.godaddy.com/help/fordern-sie-mein-ssl-zertifikat-fur-eine-primare-domain-in-meinem-godaddy-hostingkonto-an-etwa-linux-cpanel-windows-plesk-oder-eine-website-mit-website-baukasten-v7-40439
+      
+      
+      https://stackoverflow.com/questions/11804202/how-do-i-setup-a-ssl-certificate-for-an-express-js-server
 
 add this to the app.js file:
 
@@ -173,7 +206,14 @@ add the key file to the node app folder (root works)
 
 
 
+OPTIONAL: https://www.ssl.com/how-to/manually-generate-a-certificate-signing-request-csr-using-openssl/
+
+
+
+
       IF THE BROWSER IS CHANGING AUTOMATICLY FROM HTTP to HTTPS 
+      
+______________________________________________________________________      
   
   -> https://superuser.com/questions/565409/how-to-stop-an-automatic-redirect-from-http-to-https-in-chrome
   
