@@ -56,6 +56,7 @@ var helmet =require('helmet');
  
 3. Configure logging
 4. Use SSL / TSL , important- but the most hoster make that for us 
+5. change (picture etc.) paths/relative paths to -> https://......
 
 
 
