@@ -1,7 +1,14 @@
-Object Oriented Programming Leanguages   |      Functional Leanguages     |     Systems Leanguages      |     Modern Leanguages     |     Dynamic Leanguages
-                                                                                                                                          Scripting Leanguage
-             Java                                                                     Rust                                                   
-                                                                                                                                              Javascript
+Object Oriented Programming Leanguages  |   Functional Leanguages   |   Systems Leanguages  |   Modern Leanguages  |   Dynamic Leanguages
+                                                                                                                       Scripting Leanguage
+             Java                                                             Rust                                                   
+                                                                                                                            Javascript
+
+
+
+
+BRIEF JS HISTORY overview: js course lecture 30
+
+
 
 
 
@@ -32,8 +39,8 @@ IaaS      |     PaaS      |     SaaS
 
           HOSTING Guideline
 
-______________________________________________________________________  
-
+          _________________ 
+      
           
           
      FIRST we host a node.js App !
@@ -61,9 +68,10 @@ var helmet =require('helmet');
 
 
 
-      DIGITALOCEAN
 
-______________________________________________________________________  
+          DIGITALOCEAN
+
+          ____________  
 
       FAB
 
@@ -82,9 +90,10 @@ https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-debia
 
 
 
-     SSH:
+
+          SSH:
    
-______________________________________________________________________     
+          ____  
 
 ssh root@meine ip
 
@@ -93,9 +102,9 @@ dann das -> root host pw <- eingeben
 
 
 
-     SCP:    (file or folder TRANSFER to root server) 
+          SCP:    (file or folder TRANSFER to root server) 
  
-______________________________________________________________________  
+          ____ 
 
 
 command in terminal:
