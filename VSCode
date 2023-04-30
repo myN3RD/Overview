@@ -34,7 +34,8 @@ Thunder Client  -> does the same like postman, just much faster and in VSCode
           
 1. create a file: .prettierrc
 2. {
-    "singleQuote": true
+    "singleQuote": true,
+    "arrowParens": "avoid"              // for arrow functions
    }
    
    
