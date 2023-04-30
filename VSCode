@@ -1,4 +1,6 @@
-SHORTCUTS
+          SHORTCUTS
+          _________
+
 
 Auskommentieren:          cmd + shift + 7
 jumping between files:    option + 1 or 2 and so on
@@ -10,7 +12,9 @@ mark up or down           shift + up/down arrow
 .
 
 
-EXTENSIONS
+          EXTENSIONS
+          __________
+          
 
 change words all at ones: ctrl + d   ctrl + shift + l        :  Multiple cursor case preserve
 
@@ -20,3 +24,17 @@ Thunder Client  -> does the same like postman, just much faster and in VSCode
     Making a POST request -> http://localhost:1337/api/auth/local/register
     
     Making a GET request for login -> http://localhost:1337/api/auth/local
+
+
+
+
+          USING '' instead of "" with prettier
+          ____________________________________
+          
+          
+1. create a file: .prettierrc
+2. {
+    "singleQuote": true
+   }
+   
+   
