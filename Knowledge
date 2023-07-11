@@ -36,9 +36,16 @@ IaaS      |     PaaS      |     SaaS
 
 
 
+2013 Future Skills (most recommended)
+
+= Cyber Security
+
+
+
+
+
 
           HOSTING Guideline
-
           _________________ 
       
           
@@ -70,7 +77,6 @@ var helmet =require('helmet');
 
 
           DIGITALOCEAN
-
           ____________  
 
       FAB
@@ -91,8 +97,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-debia
 
 
 
-          SSH:
-   
+          SSH:   
           ____  
 
 ssh root@meine ip
@@ -102,8 +107,7 @@ dann das -> root host pw <- eingeben
 
 
 
-          SCP:    (file or folder TRANSFER to root server) 
- 
+          SCP:    (file or folder TRANSFER to root server)  
           ____ 
 
 
@@ -135,8 +139,7 @@ npm cache clean -f
 
 
 
-      PM2
-      
+      PM2    
 ______________________________________________________________________  
 
 npm PM2     keeps the app running     https://pm2.keymetrics.io/docs/usage/quick-start/
@@ -160,7 +163,6 @@ pm2 start app.js "MY APP" ...    keeps pm2 running while changing the app       
 
 
       HOW TO SEE THE CONTENT OF FILES IN THE TERMINAL
- 
 ______________________________________________________________________   
 
 go to the root where the file is ->
@@ -169,8 +171,7 @@ command:    nano main.css   nano filename
 
 
 
-      PORTS opening:
-      
+      PORTS opening:    
 ______________________________________________________________________  
 
 https://www.digitalocean.com/community/tutorials/opening-a-port-on-linux
@@ -182,8 +183,7 @@ sudo apt-get install netcat
 
 
 
-      SSL Cerfificate                
-      
+      SSL Cerfificate                 
 ______________________________________________________________________  
 
       goDaddy     https://de.godaddy.com/help/fordern-sie-mein-ssl-zertifikat-fur-eine-primare-domain-in-meinem-godaddy-hostingkonto-an-etwa-linux-cpanel-windows-plesk-oder-eine-website-mit-website-baukasten-v7-40439
@@ -225,7 +225,6 @@ OPTIONAL: https://www.ssl.com/how-to/manually-generate-a-certificate-signing-req
 
 
       IF THE BROWSER IS CHANGING AUTOMATICLY FROM HTTP to HTTPS 
-      
 ______________________________________________________________________      
   
   -> https://superuser.com/questions/565409/how-to-stop-an-automatic-redirect-from-http-to-https-in-chrome
