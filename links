@@ -5,25 +5,27 @@ FONTS     fontflipper.com
 
 DE-BUG APIS   https://insomnia.rest
 
-DOMAIN    https://www.godaddy.com/de
+DOMAIN        https://www.godaddy.com/de
 
-HOSTING   digitalocean
+HOSTING       digitalocean
 
-TESTS     https://leetcode.com
+TESTS         https://leetcode.com
 
-TESTS     https://github.com/karan/Projects
+TESTS         https://github.com/karan/Projects
 
-TESTS     projecteuler.net
+TESTS         projecteuler.net
 
-HELP      https://www.w3schools.com
+HELP          https://www.w3schools.com
 
-DIAGRAMS  https://app.diagrams.net/
+DIAGRAMS      https://app.diagrams.net/
 
 BACKEND ROADMAP     https://roadmap.sh/backend
 
 RECREATE X          https://github.com/codecrafters-io/build-your-own-x
-
                     https://unicode-table.com/de/html-entities/
+
+JOBS          https://remoteok.com/
+              https://weworkremotely.com/
           
           
 
