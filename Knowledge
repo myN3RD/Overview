@@ -6,7 +6,7 @@ Object Oriented Programming Leanguages  |   Functional Leanguages   |   Systems 
 
 
 
-BRIEF JS HISTORY overview: js course lecture 30 ------------
+BRIEF JS HISTORY overview: js course lecture 30
 
 
 
@@ -43,12 +43,8 @@ IaaS      |     PaaS      |     SaaS
 
 
 
-
-
           HOSTING Guideline
           _________________ 
-      
-          
           
      FIRST we host a node.js App !
      SECOND we need a provider who supports node.js hosting !
@@ -60,6 +56,11 @@ IaaS      |     PaaS      |     SaaS
           
 1. Use Environment Variables:
 - Avoid hard-codes values in your code, like sensitive data, like api keys, personal data etc.
+
+For DEPLOYMENT:
+
+const port = process.env.PORT || 3000; // for real deployment -> protected usage
+
 
 2. set secure response headers  -> https://helmetjs.github.io
 - npm install helmet --save
@@ -75,7 +76,6 @@ var helmet =require('helmet');
 
 
 
-
           DIGITALOCEAN
           ____________  
 
@@ -85,14 +85,11 @@ oben statt ubuntu auf debian
 premium AMD -> mach auf regular (also der die erste auswahl)
 
 
-
 https://www.digitalocean.com/community/tutorials/initial-server-setup-with-debian-10
 https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-debian-10
 
 
-
   DNS RECORDS und NAMESERVER einrichten   ->   https://docs.digitalocean.com/tutorials/dns-registrars/
-
 
 
 
@@ -107,11 +104,12 @@ dann das -> root host pw <- eingeben
 
 
 
-          SCP:    (file or folder TRANSFER to root server)  
+          SCP:   
           ____ 
 
+ (file or folder TRANSFER to root server)  
 
-command in terminal:
+in terminal:
 scp -r folder name User name@HostIp:dropletname
 
 scp -r file.tar root@ip:/root/file.tar   _/_/_/
@@ -139,8 +137,8 @@ npm cache clean -f
 
 
 
-      PM2    
-______________________________________________________________________  
+          PM2    
+          ___
 
 npm PM2     keeps the app running     https://pm2.keymetrics.io/docs/usage/quick-start/
 
@@ -162,8 +160,8 @@ pm2 start app.js "MY APP" ...    keeps pm2 running while changing the app       
 
 
 
-      HOW TO SEE THE CONTENT OF FILES IN THE TERMINAL
-______________________________________________________________________   
+          HOW TO SEE THE CONTENT OF FILES IN THE TERMINAL
+          _______________________________________________
 
 go to the root where the file is ->
 command:    nano main.css   nano filename
@@ -171,8 +169,8 @@ command:    nano main.css   nano filename
 
 
 
-      PORTS opening:    
-______________________________________________________________________  
+          PORTS opening:    
+          ______________  
 
 https://www.digitalocean.com/community/tutorials/opening-a-port-on-linux
 
@@ -183,20 +181,20 @@ sudo apt-get install netcat
 
 
 
-      SSL Cerfificate                 
-______________________________________________________________________  
+          SSL Cerfificate                 
+          _______________
 
-      goDaddy     https://de.godaddy.com/help/fordern-sie-mein-ssl-zertifikat-fur-eine-primare-domain-in-meinem-godaddy-hostingkonto-an-etwa-linux-cpanel-windows-plesk-oder-eine-website-mit-website-baukasten-v7-40439
+https://de.godaddy.com/help/fordern-sie-mein-ssl-zertifikat-fur-eine-primare-domain-in-meinem-godaddy-hostingkonto-an-etwa-linux-cpanel-windows-plesk-oder-eine-website-mit-website-baukasten-v7-40439
       
       
-      https://stackoverflow.com/questions/11804202/how-do-i-setup-a-ssl-certificate-for-an-express-js-server
+https://stackoverflow.com/questions/11804202/how-do-i-setup-a-ssl-certificate-for-an-express-js-server
       
       
-      https://stackoverflow.com/questions/11744975/enabling-https-on-express-js     _/_/_/
+https://stackoverflow.com/questions/11744975/enabling-https-on-express-js     _/_/_/
 
 
-add this to the app.js file:
 
+app.js file:
 
 const fs = require('fs');
 var privateKey = fs.readFileSync( 'privatekey.pem' );
@@ -224,8 +222,8 @@ OPTIONAL: https://www.ssl.com/how-to/manually-generate-a-certificate-signing-req
 
 
 
-      IF THE BROWSER IS CHANGING AUTOMATICLY FROM HTTP to HTTPS 
-______________________________________________________________________      
+          IF THE BROWSER IS CHANGING AUTOMATICLY FROM HTTP to HTTPS 
+          _________________________________________________________      
   
   -> https://superuser.com/questions/565409/how-to-stop-an-automatic-redirect-from-http-to-https-in-chrome
   
