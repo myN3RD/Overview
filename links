@@ -11,6 +11,8 @@ DOMAIN        https://www.godaddy.com/de
 
 HOSTING       digitalocean
 
+DATENSCHUTZ   https://www.rechtsdokumente.de/vertraege/Datenschutzerklaerung/preview.aspx?webuser_data_id=156280598&loc=DE
+
 TESTS         https://leetcode.com
 
 TESTS         https://github.com/karan/Projects
