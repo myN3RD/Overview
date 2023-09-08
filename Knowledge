@@ -12,6 +12,28 @@ BRIEF JS HISTORY overview: js course lecture 30
 
 
 
+          LEARNING ROADMAP
+          ________________
+
+https://www.youtube.com/watch?v=dPMk6_HTBq8&ab_channel=ConnerArdman
+
+
+1. HTML
+2. CSS                FONTEND
+3. Javascript
+
+4. Node JS + Express
+5. Databases          BACKEND
+
+6. VUE / React
+7. Typescript         FRAMEWORKS and LIBRARYS (to simplify development)
+
+
+
+
+
+
+
       Databases
 
 SQL      |     NoSQL
@@ -49,9 +71,9 @@ IaaS      |     PaaS      |     SaaS
      FIRST we host a node.js App !
      SECOND we need a provider who supports node.js hosting !
      
-     PROVIDERS  alfahosting
-                digitalocean
-                godaddy
+     PROVIDERS:  alfahosting
+                 digitalocean
+                 godaddy
      
           
 1. Use Environment Variables:
@@ -184,11 +206,9 @@ sudo apt-get install netcat
           SSL Cerfificate                 
           _______________
 
-https://de.godaddy.com/help/fordern-sie-mein-ssl-zertifikat-fur-eine-primare-domain-in-meinem-godaddy-hostingkonto-an-etwa-linux-cpanel-windows-plesk-oder-eine-website-mit-website-baukasten-v7-40439
+https://de.godaddy.com/help/fordern-sie-mein-ssl-zertifikat-fur-eine-primare-domain-in-meinem-godaddy-hostingkonto-an-etwa-linux-cpanel-windows-plesk-oder-eine-website-mit-website-baukasten-v7-40439    
       
-      
-https://stackoverflow.com/questions/11804202/how-do-i-setup-a-ssl-certificate-for-an-express-js-server
-      
+https://stackoverflow.com/questions/11804202/how-do-i-setup-a-ssl-certificate-for-an-express-js-server     
       
 https://stackoverflow.com/questions/11744975/enabling-https-on-express-js     _/_/_/
 
