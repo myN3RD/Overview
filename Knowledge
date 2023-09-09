@@ -74,8 +74,38 @@ IaaS      |     PaaS      |     SaaS
      PROVIDERS:  alfahosting
                  digitalocean
                  godaddy
+
+
+DOMAIN PART
+___________
+
+BUY a domain -> godaddy
+CHANGE Nameservers at godaddy with the NS 
+                                          ns1.digitalocean.com
+                                          ns2.digitalocean.com
+                                          ns3.digitalocean.com
+
+GO to Terminal: 
+
+command: whois domain
+-> now we should see the 3 NS -> means we are successful connected
+
+
+
+
+SSL CERTIFICATE PART
+____________________
+
+BUY SSL Certificate -> godaddy
+
+
      
-          
+
+
+
+CODING PART
+___________
+
 1. Use Environment Variables:
 - Avoid hard-codes values in your code, like sensitive data, like api keys, personal data etc.
 
@@ -213,7 +243,6 @@ https://stackoverflow.com/questions/11804202/how-do-i-setup-a-ssl-certificate-fo
 https://stackoverflow.com/questions/11744975/enabling-https-on-express-js     _/_/_/
 
 
-
 app.js file:
 
 const fs = require('fs');
@@ -227,14 +256,11 @@ https.createServer({
 }, app).listen(443);          at the end of the app
 
 
-
 download the ssl key file from domain provider
 downloas the ssl certificate
 
 
-
 add the files to the node app folder (root folder works)
-
 
 
 OPTIONAL: https://www.ssl.com/how-to/manually-generate-a-certificate-signing-request-csr-using-openssl/
