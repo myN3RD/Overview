@@ -149,9 +149,14 @@ https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-debia
           SSH:   
           ____  
 
-ssh root@meine ip
+ssh root@ip  -> (ip vom droplet)
 
-dann das -> root host pw <- eingeben
+droplet pw entering => root host pw
+
+
+to exit ssh connection:
+
+in terminal: exit
 
 
 
