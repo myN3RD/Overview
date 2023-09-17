@@ -115,11 +115,13 @@ const port = process.env.PORT || 3000; // for real deployment -> protected usage
 
 
 2. set secure response headers  -> https://helmetjs.github.io
-- npm install helmet --save
 
-var helmet =require('helmet');
+npm install helmet --save
+
+var helmet = require('helmet');
  
  app.use(helmet());
+
  
 3. Configure logging
 4. Use SSL / TSL , important- but the most hoster make that for us 
@@ -248,6 +250,14 @@ https://stackoverflow.com/questions/11804202/how-do-i-setup-a-ssl-certificate-fo
 https://stackoverflow.com/questions/11744975/enabling-https-on-express-js     _/_/_/
 
 
+download the ssl key file from domain provider
+download the ssl certificate
+
+
+add the files to the root folder!
+
+
+
 app.js file:
 
 const fs = require('fs');
@@ -261,11 +271,6 @@ https.createServer({
 }, app).listen(443);          at the end of the app
 
 
-download the ssl key file from domain provider
-downloas the ssl certificate
-
-
-add the files to the node app folder (root folder works)
 
 
 OPTIONAL: https://www.ssl.com/how-to/manually-generate-a-certificate-signing-request-csr-using-openssl/
