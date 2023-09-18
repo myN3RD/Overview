@@ -1,0 +1,11 @@
+**********
+Error: listen EADDRINUSE: address already in use :::443 
+
+SOLUTION:
+
+npm i kill-port
+
+npx kill-port 443  (or whatever port is in the err)
+
+
+
