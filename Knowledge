@@ -11,7 +11,6 @@ BRIEF JS HISTORY overview: js course lecture 30
 
 
 
-
           LEARNING ROADMAP
           ________________
 
@@ -31,10 +30,8 @@ https://www.youtube.com/watch?v=dPMk6_HTBq8&ab_channel=ConnerArdman
 
 
 
-
-
-
       Databases
+      _________
 
 SQL      |     NoSQL
 
@@ -50,15 +47,16 @@ Node.js
 
 
 
-           Cloud Computing
+          Cloud Computing
+          _______________
     
-IaaS      |     PaaS      |     SaaS
-
+IaaS     |     PaaS      |     SaaS
 
 
 
 
 2013 Future Skills (most recommended)
+_____________________________________
 
 = Cyber Security
 
@@ -74,6 +72,7 @@ IaaS      |     PaaS      |     SaaS
      PROVIDERS:  alfahosting
                  digitalocean
                  godaddy
+
 
 
 DOMAIN PART
@@ -92,14 +91,10 @@ command: whois domain
 
 
 
-
 SSL CERTIFICATE PART
 ____________________
 
 BUY SSL Certificate -> godaddy
-
-
-     
 
 
 
@@ -129,9 +124,8 @@ var helmet = require('helmet');
 
 
 
-
-          DIGITALOCEAN
-          ____________  
+DIGITALOCEAN
+____________  
 
       FAB
 
@@ -143,13 +137,13 @@ https://www.digitalocean.com/community/tutorials/initial-server-setup-with-debia
 https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-debian-10
 
 
-  DNS RECORDS und NAMESERVER einrichten   ->   https://docs.digitalocean.com/tutorials/dns-registrars/
+DNS RECORDS und NAMESERVER einrichten   ->   https://docs.digitalocean.com/tutorials/dns-registrars/
 
 
 
 
-          SSH:   
-          ____  
+SSH:   
+____  
 
 ssh root@ip  -> (ip vom droplet)
 
@@ -162,9 +156,8 @@ in terminal: exit
 
 
 
-
-          SCP:   
-          ____ 
+SCP:   
+____ 
 
  (file or folder TRANSFER to root server)  
 
@@ -196,8 +189,8 @@ npm cache clean -f
 
 
 
-          PM2    
-          ___
+PM2    
+___
 
 npm PM2     keeps the app running     https://pm2.keymetrics.io/docs/usage/quick-start/
 
