@@ -30,6 +30,17 @@ https://www.youtube.com/watch?v=dPMk6_HTBq8&ab_channel=ConnerArdman
 
 
 
+          LOCAL DEVELOPMENT (without backend)
+          _________________
+
+terminal command: 
+-> live-server
+
+or live-server button in vscode
+
+
+
+
       Databases
       _________
 
