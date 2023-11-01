@@ -159,13 +159,16 @@ var helmet = require('helmet');
 
 
 
-DIGITALOCEAN
+DIGITALOCEAN - IaaS (Infastructure as a Service)
 ____________  
 
-      FAB
+IaaS (Infastructure as a Service) = Digitalocean, AWS, Azure etc.
+
+
+FAB
 
 oben statt ubuntu auf debian
-premium AMD -> mach auf regular (also der die erste auswahl)
+premium AMD -> mach auf regular (also die erste Auswahl)
 
 
 https://www.digitalocean.com/community/tutorials/initial-server-setup-with-debian-10
