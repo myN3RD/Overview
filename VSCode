@@ -15,12 +15,13 @@ mark up or down           shift + up/down arrow
           EXTENSIONS
           __________
 
-DONT use Prettier -> i had big issues just because of autoformating
+• TODO Highlight
 
 
 change words all at ones: ctrl + d   ctrl + shift + l        :  Multiple cursor case preserve
 
-Thunder Client  -> does the same like postman, just much faster and in VSCode
+
+• Thunder Client  -> does the same like postman, just much faster and in VSCode
 
                                                                                 https://www.youtube.com/watch?v=hSEZJqacL0c&ab_channel=DigitalOcean
     Making a POST request -> http://localhost:1337/api/auth/local/register
@@ -28,7 +29,7 @@ Thunder Client  -> does the same like postman, just much faster and in VSCode
     Making a GET request for login -> http://localhost:1337/api/auth/local
 
 
-
+• DONT use Prettier -> i had big issues just because of autoformating
 
 *** DONT use Prettier -> i had big issues just because of autoformating ***
           USING '' instead of "" with prettier
