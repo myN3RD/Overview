@@ -66,16 +66,14 @@ Firebase (maybe, should be nice)  is an hybrid of SQL and NoSQL
 
 
 
-API (Application programming Interface) 
-
-Node.js
-
-
 
           Cloud Computing
           _______________
     
-IaaS     |     PaaS      |     SaaS
+IaaS           |           PaaS            |           SaaS
+
+
+·DigitalOcean
 
 
 
@@ -83,15 +81,15 @@ IaaS     |     PaaS      |     SaaS
           2013 Future Skills (most recommended)
           _____________________________________
 
-= Cyber Security
+·Cyber Security
 
 
 
 
-          HOW IS A SITE PROGRAMM TESTED TO FIND OUT WHEN ITS COLLAPSING
-          _____________________________________________________________
+          FYI - HOW IS A WEBSITE OR PROGRAMM TESTED TO FIND OUT WHEN ITS COLLAPSING
+          _________________________________________________________________________
 
-through the socked and inodes the computer offers
+FAB: through the socked and inodes the computer offers
 
 most of the time, all stuff will be "LOAD BALANCED" over several systems
 
@@ -101,12 +99,12 @@ most of the time, all stuff will be "LOAD BALANCED" over several systems
           HOSTING Guideline
           _________________ 
           
-     FIRST we host a node.js App !
-     SECOND we need a provider who supports node.js hosting !
+FIRST we host a node.js App !
+SECOND we need a provider who supports node.js hosting !
      
-     PROVIDERS:  alfahosting
-                 digitalocean
-                 godaddy
+HOSTING PROVIDERS:  alfahosting
+                    digitalocean
+                    godaddy
 
 
 
@@ -114,15 +112,34 @@ DOMAIN PART
 ___________
 
 BUY a domain -> godaddy
-CHANGE Nameservers at godaddy with the NS 
-                                          ns1.digitalocean.com
-                                          ns2.digitalocean.com
-                                          ns3.digitalocean.com
+CHANGE Nameservers at godaddy with the NS from digitalocean:
 
-GO to Terminal: 
+                                        ns1.digitalocean.com
+                                        ns2.digitalocean.com
+                                        ns3.digitalocean.com
 
-command: whois domain
--> now we should see the 3 NS -> means we are successful connected
+GO to MAC Terminal: 
+
+command: whois <domain>
+         whois tbsshrdev.com
+
+-> now we should see the 3 NS 
+
+Name Server: NS1.DIGITALOCEAN.COM
+Name Server: NS2.DIGITALOCEAN.COM
+Name Server: NS3.DIGITALOCEAN.COM
+
+-> means we are successful connected
+
+
+
+OR
+
+https://de.godaddy.com/whois/results.aspx?domain=tbsshrdev.com
+
+put in the domain youre looking for in the search field
+
+-> look for the NS 
 
 
 
