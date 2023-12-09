@@ -9,3 +9,11 @@ npx kill-port 443  (or whatever port is in the err)
 
 
 
+*************
+WHEN USING EJS:
+
+Error: Cannot find module 'ejs'
+
+Go up one level (above app.js) and do npm install ejs. It will create a new node_modules folder and Express should find the module then.
+
+-> https://stackoverflow.com/questions/7754799/error-cannot-find-module-ejs
