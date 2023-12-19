@@ -149,6 +149,9 @@ ____________________
 BUY SSL Certificate -> godaddy
 
 
+https://ssltools.godaddy.com/views/certChecker
+
+
 
 CODING PART
 ___________
@@ -255,23 +258,13 @@ sudo npm install pm2 -g
 pm2 start app.js
 pm2 stop app.js
 
-pm2 delete <id>       clears the cache of pm2 ??
-pm2 dleete all
+pm2 delete <id>       clears the cache of pm2 from <id> 
+pm2 delete all        clears the cache of pm2
 
 pm2 monit             monitoring
 
 
-pm2 start app.js "MY APP" ...    keeps pm2 running while changing the app       // VIDEO CHECK AGAIN for the command
-
-
-
-
-
-          HOW TO SEE THE CONTENT OF FILES IN THE TERMINAL
-          _______________________________________________
-
-go to the root where the file is ->
-command:    nano main.css   nano filename
+pm2 start app.js      keeps pm2 running while changing the app       // VIDEO CHECK AGAIN for the command
 
 
 
@@ -298,11 +291,11 @@ https://stackoverflow.com/questions/11804202/how-do-i-setup-a-ssl-certificate-fo
 https://stackoverflow.com/questions/11744975/enabling-https-on-express-js     _/_/_/
 
 
-download the ssl key file from domain provider
-download the ssl certificate
+1. download the ssl key file from domain provider
+2. download the ssl certificate: https://certs.godaddy.com/cert/details/kopff41nq748tmdrw8pgpt6xjezbhwnc?cb=&app=
 
 
-add the files to the root folder!
+3. add the files to the root folder!
 
 
 
@@ -316,7 +309,7 @@ var certificate = fs.readFileSync( 'certificate.pem' );
 https.createServer({
     key: privateKey,
     cert: certificate
-}, app).listen(443);          at the end of the app
+}, app).listen(443);        
 
 
 
