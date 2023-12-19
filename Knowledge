@@ -291,7 +291,13 @@ https://stackoverflow.com/questions/11804202/how-do-i-setup-a-ssl-certificate-fo
 https://stackoverflow.com/questions/11744975/enabling-https-on-express-js     _/_/_/
 
 
-1. download the ssl key file from domain provider
+1. download the ssl key file from domain provider: 
+
+https://de.godaddy.com/help/apache-generieren-einer-zertifikatsignieranforderung-csr-5269
+-> in terminal WHEN BEEING IN THE DROPLET VIA SSH: 
+-> openssl req -new -newkey rsa:2048 -nodes -keyout Ihre Domain.key -out Ihre Domain.csr
+
+
 2. download the ssl certificate: https://certs.godaddy.com/cert/details/kopff41nq748tmdrw8pgpt6xjezbhwnc?cb=&app=
 
 
