@@ -227,6 +227,18 @@ scp -r file.tar root@ip:/root/file.tar   _/_/_/
 scp -r app.js root@ip:/root/subfolder/app.js
 
 
+multiple files at ones:
+scp -r e58da54bfe2e0c7b.crt e58da54bfe2e0c7b.pem gd_bundle-g2-g1.crt key.pem root@46.101.155.88:
+
+
+move multiple files at ones:
+
+move  file       file    file destination
+⬇️     ⬇️          ⬇️       ⬇️     ⬇️
+mv bundle.crt cert.crt kp.pem tbsshrdev/
+
+
+
 
 
 file directly:
