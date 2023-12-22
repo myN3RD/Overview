@@ -310,6 +310,10 @@ Netcat install:
 sudo apt-get install netcat
 
 
+OPEN PORT 443 (debian/linux):
+sudo iptables -I INPUT -p tcp -m tcp –dport 443 -j ACCEPT
+
+
 
 
           SSL Cerfificate                 
