@@ -300,8 +300,8 @@ pm2 start app.js      keeps pm2 running while changing the app       // VIDEO CH
 
 
 
-          PORTS opening:    
-          ______________  
+          PORTS opening etc:    
+          __________________  
 
 https://www.digitalocean.com/community/tutorials/opening-a-port-on-linux
 
@@ -313,6 +313,16 @@ sudo apt-get install netcat
 OPEN PORT 443 (debian/linux):
 sudo iptables -I INPUT -p tcp -m tcp –dport 443 -j ACCEPT
 
+
+LIST OF ALL PORTS
+_________________
+
+cat /etc/services
+
+NOTE:
+
+port 80 -> http standard
+port 443 -> https standard
 
 
 
