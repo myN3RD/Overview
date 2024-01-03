@@ -98,6 +98,12 @@ most of the time, all stuff will be "LOAD BALANCED" over several systems
 
           HOSTING Guideline
           _________________ 
+
+NOTE:
+
+BEFORE finally Hosting -> IMPRESSUM has to be done !
+
+
           
 FIRST we host a node.js App !
 SECOND we need a provider who supports node.js hosting !
