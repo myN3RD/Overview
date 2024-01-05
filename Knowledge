@@ -239,10 +239,11 @@ in terminal: exit
 
 
 
-SCP:   
-____ 
+SCP   
+___ 
 
- (file or folder TRANSFER to root server)  
+TRANSFER to -> *** REMOTE *** (root) SERVER
+___________________________________________
 
 in terminal:
 scp -r folder name User name@HostIp:dropletname
@@ -280,6 +281,16 @@ $ tar -cvf wanted file name   existing file
 
 
 npm cache clean -f
+
+
+
+TRANSFER FROM *** REMOTE *** (root) SERVER -> to LOCAL PC(MAC)
+______________________________________________________________
+
+scp -r remote server directory@ip:/remote server directory/file(or folder) /target-directory
+
+->
+scp -r root@ip:/root/file(or folder) /Users/username/directory
 
 
 
