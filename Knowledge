@@ -287,10 +287,16 @@ npm cache clean -f
 TRANSFER FROM *** REMOTE *** (root) SERVER -> to LOCAL PC(MAC)
 ______________________________________________________________
 
+we create a copy of the folder/file and paste it into our local system
+
+
+
 scp -r remote server directory@ip:/remote server directory/file(or folder) /target-directory
 
 ->
 scp -r root@ip:/root/file(or folder) /Users/username/directory
+
+
 
 
 
