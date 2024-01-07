@@ -1,3 +1,19 @@
+
+
+
+
+HOSTING Guideline 110 
+
+
+
+PUSH FILE/FOLDER TO GITHUB 420
+IMPROVE WEB PERFORMANCE 445
+
+_____________________________
+
+
+
+
 Object Oriented Programming Leanguages  |   Functional Leanguages   |   Systems Leanguages  |   Modern Leanguages  |   Dynamic Leanguages
                                                                                                                        Scripting Leanguage
              Java                                                             Rust                                                   
@@ -299,8 +315,6 @@ scp -r root@ip:/root/file(or folder) /Users/username/directory
 
 
 
-
-
 PM2    
 ___
 
@@ -402,6 +416,29 @@ OPTIONAL: https://www.ssl.com/how-to/manually-generate-a-certificate-signing-req
   HTTPS Website app.js setup
   
   https://stackoverflow.com/questions/11744975/enabling-https-on-express-js/11745114#11745114
+
+
+
+
+          PUSH FILE/FOLDER TO GITHUB
+          __________________________
+
+1. create a repository on github
+1.2 in mac terminal git -v
+2. go to directory of the file/folder we wanna upload
+
+-> one command after  the other in terminal:
+git init
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/myN3RD/myRepositoryName.git
+git push -u origin main
+
+OPTIONAL -> if we have something wrong -> we just clear git -> git remote remove origin
+
+3. we are prompt to put in username on github
+4. we are prompt for our pw on github -> NOTE: its NOT the pw -> instead we use our github token
+-> we generate the token on github: https://github.com/settings/apps
 
 
 
