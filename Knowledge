@@ -1,11 +1,11 @@
 
 
-
+ 
 
 HOSTING Guideline 110 
 
 
-
+SSL CERTIFICATE INSTALLATION - 367
 PUSH FILE/FOLDER TO GITHUB 420
 IMPROVE WEB PERFORMANCE 445
 
@@ -325,6 +325,7 @@ sudo npm install pm2 -g
 
 pm2 start app.js
 pm2 stop app.js
+pm2 status            checking the status of pm2 activitys
 
 pm2 delete <id>       clears the cache of pm2 from <id> 
 pm2 delete all        clears the cache of pm2
@@ -363,8 +364,65 @@ port 443 -> https standard
 
 
 
-          SSL Cerfificate                 
-          _______________
+          SSL CERTIFICATE INSTALLATION                
+          ____________________________
+
+https://www.digicert.com/kb/ssl-support/openssl-quick-reference-guide.htm
+
+-> go to terminal on mac
+-> command: 
+
+openssl version -a
+
+
+GENERAL EXPLANATION
+___________________
+
+Create a new Folder on desktop for ssl files
+First we have generate a private key in the in local terminal via openssl.
+Then we use the new generated key to gennrate a .crs file from it.
+csr file vefifizieren: openssl req -text -in yourdomain.csr -noout -verify -> we should see: "verify ok"
+***
+Now we can use the .crs file here -> https://certs.godaddy.com/cert/details/ncsjybuzpqfphfzzdwzxwcgfel3salgk?cb=&app=
+-> go to "Zertifikat verwalten" left side in the middle
+-> go to "Zertifikat mit neuen Schlüssel versehen."
+-> put in the content of the .crs file in the input field:
+
+-----BEGIN CERTIFICATE REQUEST-----
+......
+-----END CERTIFICATE REQUEST-----
+
+-> Scroll down -> Button: "Alle Änderungen senden"
+
+-> we will get an email after some time
+
+-> NOW we use the link from email
+
+-> Zertifikat herunterladen - Servertyp = sonstige
+
+ALL inside the NEW folder were the key and csr file already is
+
+NOW we have 5 files (key, csr, Zertifikate: xxx.crt, xxx.pem, bundle.crt)
+
+-> we need 3 files: key, .crt, bundle.crt
+
+-> rename all
+
+-> include in app.js 
+
+
+
+STEPS
+_____
+
+FIRST -> GENERATING PRIVATE KEY: openssl genrsa -out yourdomain.key 2048 
+SECOND -> openssl req -new -key yourdomain.key -out yourdomain.csr
+THIRD -> openssl req -text -in yourdomain.csr -noout -verify -> we should see: "verify ok"
+NEXT -> *** watch above
+
+
+
+OLD_______________
 
 https://de.godaddy.com/help/fordern-sie-mein-ssl-zertifikat-fur-eine-primare-domain-in-meinem-godaddy-hostingkonto-an-etwa-linux-cpanel-windows-plesk-oder-eine-website-mit-website-baukasten-v7-40439    
       
