@@ -9,7 +9,11 @@ SSL CERTIFICATE INSTALLATION - 367
 PUSH FILE/FOLDER TO GITHUB 420
 IMPROVE WEB PERFORMANCE 445
 
+
+*****************************
 _____________________________
+*****************************
+
 
 
 
@@ -375,8 +379,8 @@ https://www.digicert.com/kb/ssl-support/openssl-quick-reference-guide.htm
 openssl version -a
 
 
-GENERAL EXPLANATION
-___________________
+GENERAL EXPLAINATION
+____________________
 
 Create a new Folder on desktop for ssl files
 First we have generate a private key in the in local terminal via openssl.
