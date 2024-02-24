@@ -1,9 +1,9 @@
 
 
  
+APP IS NOT WORKING GUIDELINE 120
+HOSTING Guideline 150 
 
-HOSTING Guideline 110 
-APP IS NOT WORKING GUIDELINE
 
 SSL CERTIFICATE INSTALLATION - 367
 PUSH FILE/FOLDER TO GITHUB 420
@@ -121,6 +121,7 @@ most of the time, all stuff will be "LOAD BALANCED" over several systems
 
 STOP running app -> control + c
 (RE)START app -> npm start (in most cases)
+CHECK "scripts" (names) at package.json file
 
 
 
