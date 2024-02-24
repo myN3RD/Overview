@@ -3,7 +3,7 @@
  
 
 HOSTING Guideline 110 
-
+APP IS NOT WORKING GUIDELINE
 
 SSL CERTIFICATE INSTALLATION - 367
 PUSH FILE/FOLDER TO GITHUB 420
@@ -112,6 +112,15 @@ IaaS           |           PaaS            |           SaaS
 FAB: through the socked and inodes the computer offers
 
 most of the time, all stuff will be "LOAD BALANCED" over several systems
+
+
+
+
+          APP IS NOT WORKING GUIDELINE
+          ____________________________
+
+STOP running app -> control + c
+(RE)START app -> npm start (in most cases)
 
 
 
