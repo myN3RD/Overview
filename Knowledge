@@ -1,7 +1,7 @@
 
 
  
-APP IS NOT WORKING GUIDELINE 120
+APP IS NOT WORKING Guideline 🔎 120
 HOSTING Guideline 150 
 
 
@@ -116,12 +116,13 @@ most of the time, all stuff will be "LOAD BALANCED" over several systems
 
 
 
-          APP IS NOT WORKING GUIDELINE
-          ____________________________
+          APP IS NOT WORKING GUIDELINE 🔎 
+          _______________________________
 
 STOP running app -> control + c
 (RE)START app -> npm start (in most cases)
 CHECK "scripts" (names) at package.json file
+if we use length -> check, is it correctly written
 
 
 
