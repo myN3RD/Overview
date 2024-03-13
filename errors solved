@@ -1,4 +1,4 @@
-**********
+*************
 Error: listen EADDRINUSE: address already in use :::443 
 
 SOLUTION:
@@ -17,3 +17,22 @@ Error: Cannot find module 'ejs'
 Go up one level (above app.js) and do npm install ejs. It will create a new node_modules folder and Express should find the module then.
 
 -> https://stackoverflow.com/questions/7754799/error-cannot-find-module-ejs
+
+
+
+
+*************
+CORS
+
+
+SOLUTION:
+      (get req is failing)
+      (browser console -> Netword Tab -> Response Headers -> look for 'Access-Control-Allow-Origin') -> If does NOT exist -> enable CORS on thge server
+
+
+app.use(cors());    ?? just this line ?
+
+
+const cors = require(cors);
+
+app.use(cors({origin: 'https://foo.com'}));         tells the server to include the cors headers on every repsonse 
