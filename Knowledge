@@ -171,6 +171,12 @@ STOP running app -> control + c
 (RE)START app -> npm start (in most cases)
 CHECK "scripts" (names) at package.json file
 if we use length -> check, is it correctly written
+REMEMBER -> Code runs always from top to bottom of the file -> 
+
+router.route('/:id')
+      .get(userController.getUser)
+      .patch(userController.updateUser)
+      .delete(userController.deleteUser);
 
 
 
