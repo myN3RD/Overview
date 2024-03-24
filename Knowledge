@@ -568,6 +568,10 @@ OPTIONAL -> if we have something wrong -> we just clear git -> git remote remove
 -> we generate the token on github: https://github.com/settings/apps
 
 
+NOTE:
+
+if files beeing green after using git -> restart vscode (worked ones already)
+
 
 
           IMPROVE WEB PERFORMANCE
