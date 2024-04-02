@@ -333,6 +333,7 @@ ___________________________________________
 in terminal:
 scp -r folder name User name@HostIp:dropletname
 
+scp -r foldername root@ip:/folder foldername _/_/_/
 scp -r file.tar root@ip:/root/file.tar   _/_/_/
 
 scp -r app.js root@ip:/root/subfolder/app.js
