@@ -30,9 +30,13 @@ SOLUTION:
       (browser console -> Netword Tab -> Response Headers -> look for 'Access-Control-Allow-Origin') -> If does NOT exist -> enable CORS on thge server
 
 
-app.use(cors());    ?? just this line ?
-
+npm i cors
 
 const cors = require(cors);
 
-app.use(cors({origin: 'https://foo.com'}));         tells the server to include the cors headers on every repsonse 
+app.use(cors());  
+
+
+
+
+???? app.use(cors({origin: 'https://foo.com'}));         tells the server to include the cors headers on every repsonse 
