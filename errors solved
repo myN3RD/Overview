@@ -40,3 +40,13 @@ app.use(cors());
 
 
 ???? app.use(cors({origin: 'https://foo.com'}));         tells the server to include the cors headers on every repsonse 
+
+
+
+*************
+COULDNT FIND THE DATA FROM .ENV FILE
+
+SOLUTION: implement this line
+
+app.js:
+dotenv.config({ path: './config.env' });
