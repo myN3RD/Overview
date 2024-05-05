@@ -50,3 +50,13 @@ SOLUTION: implement this line
 
 app.js:
 dotenv.config({ path: './config.env' });
+
+
+
+*************
+Error: Can't set headers after they are sent to the client
+
+This happens when using two or more res 
+-> its only alowed to make one res per ?function?
+
+so, make sure just to use one res, the the err is gone
