@@ -8,6 +8,7 @@ HOSTING Guideline 190
 
 SSL CERTIFICATE INSTALLATION - 367
 PUSH FILE/FOLDER TO GITHUB 420
+NGINX - 
 IMPROVE WEB PERFORMANCE 445
 
 
@@ -573,6 +574,19 @@ NOTE:
 
 if files beeing green after using git -> restart vscode (worked ones already)
 
+
+
+
+
+          NGINX
+          _____
+
+DELETE FIRST  sudo apt remove nginx
+              which nginx
+              sudo rm /usr/sbin/nginx  # Replace `/usr/sbin/nginx` with the path shown by `which nginx` if different
+              sudo rm -rf /etc/nginx
+
+CHECK IF ITS STILL THERE  ->  nginx -v
 
 
           IMPROVE WEB PERFORMANCE
