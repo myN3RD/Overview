@@ -581,12 +581,28 @@ if files beeing green after using git -> restart vscode (worked ones already)
           NGINX
           _____
 
-DELETE FIRST  sudo apt remove nginx
+DELETE FIRST  sudo apt remove nginx   OPTIONAL
+              sudo apt purge nginx    BEST WAY
+              sudo apt-get autoremove
+
+https://www.baeldung.com/linux/nginx-uninstall
+
+
+
               which nginx
               sudo rm /usr/sbin/nginx  # Replace `/usr/sbin/nginx` with the path shown by `which nginx` if different
               sudo rm -rf /etc/nginx
 
 CHECK IF ITS STILL THERE  ->  nginx -v
+
+
+
+2. Install Nginx: If you haven't already, install Nginx on your system:
+
+bash
+Code kopieren
+sudo apt update
+sudo apt install nginx
 
 
           IMPROVE WEB PERFORMANCE
