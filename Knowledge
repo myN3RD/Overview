@@ -587,22 +587,81 @@ DELETE FIRST  sudo apt remove nginx   OPTIONAL
 
 https://www.baeldung.com/linux/nginx-uninstall
 
-
-
-              which nginx
-              sudo rm /usr/sbin/nginx  # Replace `/usr/sbin/nginx` with the path shown by `which nginx` if different
-              sudo rm -rf /etc/nginx
-
 CHECK IF ITS STILL THERE  ->  nginx -v
 
 
 
-2. Install Nginx: If you haven't already, install Nginx on your system:
+2. Install Nginx
 
-bash
-Code kopieren
 sudo apt update
 sudo apt install nginx
+nginx -v
+
+
+
+
+
+3.  
+
+cd /etc/nginx/sites-enabled
+ls                                  -> we see a default folder
+ls -l /etc/nginx/sites-enabled      -> to see all enabled sites
+
+
+
+
+4. create a new conf file
+cd /etc/nginx/sites-available
+sudo vim xxx.conf
+
+
+
+update file:
+ sudo vim /etc/nginx/sites-available/xxx.conf
+
+
+
+
+
+5. Activating virtual host and testing results
+
+sudo service nginx restart -> IF ERROR
+
+
+----->  Stop Apache
+If you don't need Apache, you can stop and disable it.
+
+Stop Apache:
+
+
+sudo systemctl stop apache2
+
+
+
+sudo systemctl disable apache2
+
+
+
+sudo systemctl start nginx
+
+
+
+sudo systemctl status nginx
+
+
+NOW: sudo service nginx restart
+
+
+
+
+sudo ufw allow PORT     <------ instead of port the port we use
+
+
+
+
+
+
+
 
 
           IMPROVE WEB PERFORMANCE
