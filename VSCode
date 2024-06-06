@@ -9,13 +9,12 @@ moving line:              option + arrow up or down
 mark inline:              shift + option + left/right arrows
 mark up or down           shift + up/down arrow
 
-.
+
+
 
 
           EXTENSIONS
           __________
-
-• TODO Highlight
 
 
 change words all at ones: ctrl + d   ctrl + shift + l        :  Multiple cursor case preserve
@@ -27,6 +26,7 @@ change words all at ones: ctrl + d   ctrl + shift + l        :  Multiple cursor 
     Making a POST request -> http://localhost:1337/api/auth/local/register
     
     Making a GET request for login -> http://localhost:1337/api/auth/local
+
 
 
 • DONT use Prettier -> i had big issues just because of autoformating
