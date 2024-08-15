@@ -184,6 +184,18 @@ router.route('/:id')
 
 
 
+WHEN WORKING WITH DB
+____________________
+
+1. mongoDB website -> CONNECT TO DB
+2. mongoDB COMPASS -> CONNECT via link (FROM mongoDB website) 
+   -> mongodb+srv://<username>:<password>@clusterfree.rqbxxxyhwe.mongodb.net/
+2.2 node app -> .env file db setup: -> mongodb+srv://<username>:<password>@clusterfree.rqbxxxyhwe.mongodb.net/
+     etc.
+3. TESTING connection with POSTMAN
+
+
+
 
           HOSTING Guideline
           _________________ 
