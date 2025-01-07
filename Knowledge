@@ -596,7 +596,8 @@ git push -u origin main
 OPTIONAL -> if we have something wrong -> we just clear git -> git remote remove origin
 
 3. we are prompt to put in username on github
-4. we are prompt for our pw on github -> NOTE: its NOT the pw -> instead we use our github token
+4. we are prompt for our pw/token! on github 
+   *********** -> NOTE: its NOT the pw -> instead we use our github token
 -> we generate the token on github: https://github.com/settings/apps
 
 
