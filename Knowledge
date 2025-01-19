@@ -401,8 +401,8 @@ npm cache clean -f
 
 
 
-TRANSFER FROM *** REMOTE *** (root) SERVER -> to LOCAL PC(MAC)
-______________________________________________________________
+TRANSFER FILE/FOLDER FROM *** REMOTE *** (root) SERVER -> to LOCAL PC(MAC)
+__________________________________________________________________________
 
 we create a copy of the folder/file and paste it into our local system
 
@@ -581,6 +581,9 @@ OPTIONAL: https://www.ssl.com/how-to/manually-generate-a-certificate-signing-req
 
           PUSH FILE/FOLDER TO GITHUB
           __________________________
+
+https://www.youtube.com/watch?v=tlu5e0TxSzo&ab_channel=GitHub
+
 
 1. create a repository on github
 1.2 in mac terminal git -v
