@@ -7,7 +7,7 @@ HOSTING Guideline 190
 
 
 SSL CERTIFICATE INSTALLATION - 367
-PUSH FILE/FOLDER TO GITHUB 420
+PUSH FILE/FOLDER TO GITHUB 520
 NGINX - 
 IMPROVE WEB PERFORMANCE 445
 
@@ -586,19 +586,24 @@ OPTIONAL: https://www.ssl.com/how-to/manually-generate-a-certificate-signing-req
 1.2 in mac terminal git -v
 2. go to directory of the file/folder we wanna upload
 
--> one command after  the other in terminal:
+-> one command after the other in terminal:
 git init
-git commit -m "first commit"
+git commit -m "initial commit"  (OLD - git commit -m "first commit")
+git status
 git branch -M main
-git remote add origin https://github.com/myN3RD/myRepositoryName.git
+git remote add origin https://github.com/myN3RD/myRepositoryName.git -> COPY LINK
 git push -u origin main
 
-OPTIONAL -> if we have something wrong -> we just clear git -> git remote remove origin
+-> we will be promt to put in username at gitHub 
+-> after we should put in pw -> ITS a TOKEN and no pw! -> go here: https://github.com/settings/tokens
 
 3. we are prompt to put in username on github
 4. we are prompt for our pw/token! on github 
    *********** -> NOTE: its NOT the pw -> instead we use our github token
--> we generate the token on github: https://github.com/settings/apps
+-> we generate the token on github: https://github.com/settings/tokens
+
+
+OPTIONAL -> if we have something wrong -> we just clear git -> git remote remove origin
 
 
 NOTE:
