@@ -430,10 +430,16 @@ pm2 start app.js
 pm2 stop app.js
 pm2 status            checking the status of pm2 activitys
 
+pm2 restart app.js
+pm2 logs              see all errors
+
+
 pm2 delete <id>       clears the cache of pm2 from <id> 
 pm2 delete all        clears the cache of pm2
 
+
 pm2 monit             monitoring
+
 
 
 pm2 start app.js      keeps pm2 running while changing the app       // VIDEO CHECK AGAIN for the command
