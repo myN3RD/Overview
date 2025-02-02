@@ -707,6 +707,25 @@ sudo ufw allow PORT     <------ instead of port the port we use
 
 
 
+VERSION
+_______
+
+
+MAJOR.MINOR.PATCH → 1.0.0
+Here's what each number means:
+🔹 MAJOR (1.x.x): Breaking changes (big updates, API changes).
+🔹 MINOR (1.1.x): New features (backward-compatible).
+🔹 PATCH (1.1.1): Bug fixes & small improvements.
+
+Examples
+✅ 1.0.0 → First stable release.
+✅ 1.1.0 → Added new features.
+✅ 1.1.1 → Bug fixes, but no new features.
+✅ 2.0.0 → Major breaking changes.
+
+
+
+
 
 
 
