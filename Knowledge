@@ -9,7 +9,7 @@ HOSTING Guideline 190
 SSL CERTIFICATE INSTALLATION - 367
 PUSH FILE/FOLDER TO GITHUB 520
 NGINX - 
-IMPROVE WEB PERFORMANCE 445
+IMPROVE DEV & WEB PERFORMANCE 445
 
 
 *****************************
@@ -738,8 +738,15 @@ Examples
 
 
 
-          IMPROVE WEB PERFORMANCE
-          _______________________
+          IMPROVE DEV & WEB PERFORMANCE
+          ______________________________
+
+
+DEV:
+
+     npm dedute -> in terminal vscode
+
+
 
 https://www.youtube.com/watch?v=0fONene3OIA&ab_channel=BeyondFireship
 
