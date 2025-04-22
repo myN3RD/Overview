@@ -370,7 +370,8 @@ TRANSFER to -> *** REMOTE *** (root) SERVER
 ___________________________________________
 
 in terminal:
-scp -r * root@46.101.155.88:/var/www/buy-deny-try.com/    -> to upload all content from the folder where iam currently in
+(alles!) scp -r . root@46.101.155.88:/var/www/buy-deny-try.com/    -> to upload all content from the folder where iam currently in
+(optional) scp -r * ..... nur sichtbare dateien 
 
 scp -r folder name User name@HostIp:dropletname
 
