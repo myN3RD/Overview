@@ -455,6 +455,18 @@ pm2 start app.js      keeps pm2 running while changing the app       // VIDEO CH
 
 
 
+   WHEN APP IS IN PROD AND RUNNING
+   _______________________________
+
+make changes 
+npm run build
+pm2 reload <app-name>
+
+
+-> no need to   pm2 stop, npm run build, pm2 stop
+
+
+
 
           PORTS opening etc:    
           __________________  
